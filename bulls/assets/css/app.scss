@@ -1,0 +1,124 @@
+/* This file is for your main application css. */
+
+@import "~bootstrap/scss/bootstrap";
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.top-of-login {
+margin-top: 50px;
+}
+
+p { 
+  text-align: center;
+  font-size: 10pt;
+  margin-bottom: 40px;
+ }
+
+ .form-label{
+     font-size: 2em;
+ }
+
+ .form-text {
+   font-size: 14px;
+ }
+
+ .form-control {
+   font-size: 1.5rem;
+ }
+
+ /*w3 schools refresher https://www.w3schools.com/howto/howto_css_center_button.asp*/
+ .btn-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+      
+  } 
+
+.table {
+  font-size: 16px;
+}
+
+ /* https://stackoverflow.com/questions/28261287/how-to-change-btn-color-in-bootstrap */
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: #6D00C3;
+  border-color: #6D00C3;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 8px 16px;
+  height: 48px
+}
+
+.btn-secondary {
+  margin-top: 20px;
+  background-color: gray;
+  border: 0.1rem solid gray;
+  font-size: 20px;
+  padding: 8px 16px;
+  height: 48px
+
+}
+
+.play-again {
+  font-size: 20pt;
+  margin-bottom: 25px;
+}
+
+.col {
+  margin: 20px 20px 20px 20px;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+
+/* Alerts and form errors */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+.alert p {
+  margin-bottom: 0;
+}
+.alert:empty {
+  display: none;
+}
+.invalid-feedback {
+  color: #a94442;
+  display: block;
+  margin: -1rem 0 2rem;
+}
